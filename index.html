@@ -678,7 +678,7 @@ console.log( user[0].innerHTML)
             let sharename = document.getElementById("sharename");
             let url = window.location.href
             url = url.split("=")[0]+"?n="+ String(sharename.value).replace(" ","_");
-            let shareurl = "whatsapp://send?text="+username+" Ne aapko kuchh share kiya hain \n"+url;
+            let shareurl = "whatsapp://send?text="+sharename+" Ne aapko kuchh share kiya hain \n"+url;
             console.log(shareurl)
 
             let sharebtn = document.createElement('a')
